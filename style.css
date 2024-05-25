@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #151719; */
+    background-image: url(assets/wp5812312.webp);
+    background-size: 100% 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #d2d2d2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar a {
+    color: #1b1616;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+.navbar a :hover{
+    background-color: #6f7072;
+}
+
+.avatar{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(211, 211, 211); */
+    border-radius: 20px;
+    color: #b3b3b3;
+}
+.spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+  }
+  
+  .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+  }
+  
+  @keyframes spinning82341 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.about{
+    height: 280px;
+    width: 90%;
+    background-color: #a4a4a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: 444343;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.container-about{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-avatar{
+    height: 150px;
+    width: 50%;
+    /* background-color: rgb(211, 211, 211); */
+    display: flex;
+    justify-content: end;
+}
+.anh{
+    width: 150px;
+    height: 150px;
+}
+
+.anh img{
+    width: 100%;
+    height: 100%;
+}
+.about-info{
+    height: 100%;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+}
+.from{
+    display: flex;
+    align-items: center;
+}
+.school{
+    display: flex;
+}
+.school i{
+    margin-top: 9px;
+}
+
+.container-about p{
+    margin: 5px;
+}
+.birthday{
+    display: flex;
+    align-items: center;
+}
+.birthday p{
+    margin-left: 12px;
+}
+.contact-bot{
+    height: 250px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-style: groove;
+}
+
+.facebook{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50px;
+}
+.facebook :hover{
+    height: 140px;
+    width: 140px;
+}
+.instagram{
+    height: 130px;
+    width: 130px;
+}
+.instagram :hover{
+    height: 140px;
+    width: 140px;
+}
+.tiktok{
+    height: 130px;
+    width: 130px;
+}
+.tiktok :hover{
+    height: 140px;
+    width: 140px;
+}
+.contact img{
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+}
+.footerr{
+    height: 400px;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+}
+.contact{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+}
+.contact-top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: #b3b3b3;
+}
+
+.about-avatar img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.img-contact{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.img-contact img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #c8c9cb;
+}
+
+.svg-frame {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .svg-frame svg {
+    position: absolute;
+    transition: .5s;
+    z-index: calc(1 - (0.2 * var(--j)));
+    transform-origin: center;
+    width: 344px;
+    height: 344px;
+    fill: none;
+  }
+  
+  .svg-frame:hover svg {
+    transform: rotate(-80deg) skew(30deg) translateX(calc(45px * var(--i))) translateY(calc(-35px * var(--i)));
+  }
+  
+  .svg-frame svg #center {
+    transition: .5s;
+    transform-origin: center;
+  }
+  
+  .svg-frame:hover svg #center {
+    transform: rotate(-30deg) translateX(45px) translateY(-3px);
+  }
+  
+  #out2 {
+    animation: rotate16 7s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #out3 {
+    animation: rotate16 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    stroke: #ff0;
+  }
+  
+  #inner3,
+  #inner1 {
+    animation: rotate16 4s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #center1 {
+    fill: #ff0;
+    animation: rotate16 2s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  @keyframes rotate16 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d6d0d0;
+  }
