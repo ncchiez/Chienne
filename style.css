@@ -171,7 +171,7 @@ hr {
     margin-left: 12px;
 }
 .contact-bot{
-    height: 300px;
+    height: 350px;
     width: 100%;
     /* background-color: white; */
     display: flex;
@@ -206,6 +206,14 @@ hr {
     width: 130px;
 }
 .tiktok :hover{
+    height: 140px;
+    width: 140px;
+}
+.locket{
+    height: 130px;
+    width: 130px;
+}
+.locket :hover{
     height: 140px;
     width: 140px;
 }
